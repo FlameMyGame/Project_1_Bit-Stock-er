@@ -1,0 +1,504 @@
+.title {
+    color: rgb(146, 146, 146);
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    padding: 5px 0px 5px 55px;
+    font-size: 65px;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(211, 74, 74);
+    padding: 3%;
+    background-color: rgb(50, 52, 54);
+    height: 7rem;
+}
+
+
+/* Dropdown Button */
+
+.dropbutton {
+    padding-top: 5px;
+    font-size: 22px;
+    border: none;
+    color: rgb(146, 146, 146);
+}
+
+.dropdown-list {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-links {
+    display: none;
+    position: absolute;
+    background-color: rgb(50, 52, 54);
+}
+
+.dropdown-links a {
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-links a:hover {
+    background-color: rgb(50, 52, 54);
+}
+
+.dropdown-list:hover .dropdown-links {
+    display: block;
+}
+
+.dropdown-list .dropbutton {
+    background-color: rgb(50, 52, 54);
+}
+
+
+/* Footer Styling */
+
+#footer-label {
+    margin-top: auto;
+    display: flex;
+    min-width: 500px;
+    background-color: rgb(50, 52, 54);
+    border-top-style: ridge;
+    border-color: rgb(27, 108, 116);
+    list-style-type: none;
+    padding: 10px;
+    justify-content: space-around;
+    color: rgb(146, 146, 146);
+}
+
+#footer-label a {
+    color: rgb(146, 146, 146);
+}
+
+
+/* Navbar */
+
+nav ul {
+    display: flex;
+    min-width: 60%;
+    list-style-type: none;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.li:hover {
+    text-decoration: underline gray;
+    transform: scale(1.1);
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: rgb(146, 146, 146);
+    font-size: 22px;
+    padding: 15px;
+    margin-right: 5rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+
+/* Search Bar */
+
+#search-input {
+    border-radius: 0px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#search {
+    padding: 1%;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(231, 219, 233);
+}
+
+#search-input {
+    border-radius: 0px;
+    width: 300px;
+    height: 35px;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+
+/* Search Button */
+
+#search-button {
+    display: inline;
+    justify-content: center;
+    height: 200px;
+    margin-top: 5px;
+}
+
+
+/* Subtitle */
+
+.subtitle {
+    margin-left: 20px;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+/* Search Button Style */
+
+#search {
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    background-color: rgb(50, 52, 54);
+    color: rgb(146, 146, 146);
+}
+
+#search-form {
+    margin-top: 15px;
+}
+
+.searchandforex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.forexwidget {
+    margin-left: 20px;
+}
+
+.stockChartContianer {
+    margin-left: 5px;
+}
+
+
+/* Stock Table */
+
+.stock-list {
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    justify-content: left;
+    border-style: groove;
+    border-color: rgb(50, 52, 54);
+    border-radius: 20px;
+    border-width: 20px;
+    margin-top: 10px;
+}
+
+
+/* News */
+
+#newsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: min(90%, 1000px);
+    margin-inline: auto; */
+}
+
+#newsContainer div {
+    max-height: 450px;
+    overflow: scroll;
+    justify-content: center;
+    margin: 2%;
+    text-align: center;
+    /* border-style: solid;
+    border-color: black; */
+    border-width: 1px;
+    border-radius: 3px;
+    margin: 5px;
+    max-width: 20%;
+    padding: 5px;
+}
+
+#newsContainer div h2 {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#newsContainer a {
+    word-wrap: break-word;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Toggle Dark Mode */
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.buttonContainer {
+    background-color: rgb(50, 52, 54);
+    justify-content: right;
+}
+
+.supForm {
+    display: inline-block;
+    justify-content: center;
+    width: 400px;
+    margin-left: 42%;
+    margin-top: 10%;
+    border-style: groove;
+    border-color: rgb(50, 52, 54);
+    border-radius: 20px;
+    border-width: 20px;
+}
+
+
+/* p {
+    margin-bottom: 10px;
+} */
+
+
+/* Style for the news cards */
+
+
+/* NAV BAR */
+
+
+/* 
+:hover {
+    transform: scale(1.04);
+} */
+
+@media screen and (max-width: 1650px) {
+    .searchandforex {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: .4rem
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .forexContainer {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: .4rem
+    }
+    .stock-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 20px 20px 20px;
+        justify-content: left;
+        border-style: groove;
+        border-color: rgb(50, 52, 54);
+        border-radius: 20px;
+        border-width: 20px;
+        margin-top: 10px;
+    }
+}
+
+
+/* Relative Sizing for 27 inch monitor */
+
+@media screen and (max-width: 1650px) {
+    .forexContainer {
+        display: inline-flex;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .stock-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 20px 20px 20px;
+        justify-content: left;
+        border-style: groove;
+        border-color: rgb(50, 52, 54);
+        border-radius: 20px;
+        border-width: 20px;
+        margin-top: 10px;
+    }
+    .table {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .forexContainer {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        width: 95%;
+    }
+}
+
+
+/* Responsive Screen for laptop screen */
+
+@media screen and (max-width: 1000px) {
+    .title {
+        color: rgb(25, 33, 44);
+        text-align: left;
+        font-family: 'Abril Fatface', cursive;
+        padding: 5px 0px 5px 55px;
+        font-size: 45px;
+    }
+    nav a {
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        color: rgb(146, 146, 146);
+        font-size: 20px;
+        padding: 2px;
+        margin-right: 2rem;
+    }
+    .dropbutton {
+        padding-top: 5px;
+        font-size: 20px;
+        border: none;
+    }
+    .stock-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 20px 20px 20px;
+        justify-content: left;
+        border-style: groove;
+        border-color: rgb(50, 52, 54);
+        border-radius: 20px;
+        border-width: 20px;
+        margin-top: 10px;
+        width: 95%;
+    }
+    .table {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .forexContainer {
+        display: inline;
+    }
+}
+
+
+/* Responsive Screen for tablet */
+
+@media screen and (max-width: 899px) {
+    .table {
+        display: flex;
+        flex-wrap: wrap;
+        transform: scale(80%);
+    }
+    .stock-list {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        justify-content: left;
+        border-style: groove;
+        border-color: rgb(50, 52, 54);
+        border-radius: 20px;
+        border-width: 20px;
+        margin-top: 10px;
+    }
+}
+
+
+/* /* Responsive Screen for small tablet */
+
+@media screen and (max-width: 756px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgb(50, 52, 54);
+        height: 9rem;
+        margin-top: 0%;
+    }
+    .title {
+        color: rgb(25, 33, 44);
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 45px;
+        justify-content: center;
+        margin-top: 0%;
+    }
+    nav ul {
+        display: inline-flex;
+        flex-wrap: wrap;
+        /* min-width: 90%; */
+        list-style-type: none;
+        margin-left: 3rem;
+        margin-right: 1rem;
+        margin-bottom: 5rem;
+    }
+    #newsContainer div {
+        max-height: 450px;
+        overflow: scroll;
+        justify-content: center;
+        margin: 2%;
+        text-align: center;
+        /* border-style: solid;
+         border-color: black; */
+        border-width: 1px;
+        border-radius: 3px;
+        margin: 5px;
+        max-width: 45%;
+        padding: 5px;
+    }
+    .searchandforex {
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin-top: 0%;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 756px) {
+    .searchandforex {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.forexContainer {
+    margin-left: 40%;
+}
+
+#search-form {
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 456px) {
+    .table {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .searchandforex {
+        justify-content: center;
+        align-items: center;
+        margin-left: 40%;
+    }
+    .search-button {
+        justify-content: center;
+        align-items: center;
+        margin-left: 40%;
+    }
+    .stock-list {
+        display: flex;
+        overflow: auto;
+    }
+}
